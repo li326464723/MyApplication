@@ -9,16 +9,20 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/LogCatDemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baidupush" />
+            <option value="$PROJECT_DIR$/utest" />
             <option value="$PROJECT_DIR$/viewpagerdemo" />
           </set>
         </option>
         <option name="myModules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/LogCatDemo" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/baidupush" />
+            <option value="$PROJECT_DIR$/utest" />
             <option value="$PROJECT_DIR$/viewpagerdemo" />
           </set>
         </option>

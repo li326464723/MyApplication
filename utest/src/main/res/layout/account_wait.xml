@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/loadingdialogRoot"
+    android:layout_width="216dp"
+    android:layout_height="92dp"
+    android:gravity="center"
+    android:orientation="vertical" 
+    android:background="@drawable/dialog_bg"
+    >
+   <!--  解决方案：加上  android:layout_gravity="center_horizontal"-->
+
+    <TextView
+        android:id="@+id/dialogText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="欢迎使用优测！"
+        android:textSize="18sp"
+        android:textColor="#000000">
+    </TextView>
+
+</LinearLayout>

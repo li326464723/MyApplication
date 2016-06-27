@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.utest.demo.MainActivity">
+   <Button
+       android:id="@+id/suanbt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_centerInParent="true"
+       android:text="算法测试"/>
+   <Button
+       android:id="@+id/start"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="图片测试"
+       android:layout_above="@id/suanbt"/>
+   <Button
+       android:id="@+id/uiBt"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="UI测试"
+       android:layout_above="@id/start"/>
+
+   <ImageView
+       android:id="@+id/imagevi"
+       android:layout_width="300dp"
+       android:layout_height="240dp"
+       android:layout_below="@+id/suanbt"/>
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="25sp"
+       android:text="参照上图提示"
+       android:layout_below="@id/imagevi"
+       android:layout_centerHorizontal="true"/>
+</RelativeLayout>
