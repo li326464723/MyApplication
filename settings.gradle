@@ -1,1 +1,1 @@
-include ':app', ':viewpagerdemo', ':baidupush', ':LogCatDemo', ':utest'
+include ':app', ':viewpagerdemo', ':baidupush', ':LogCatDemo', ':utest', ':ThreadDemo', ':camera2'

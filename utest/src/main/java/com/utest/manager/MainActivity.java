@@ -1,4 +1,4 @@
-package com.utest.demo;
+package com.utest.manager;
 
 import android.app.Activity;
 import android.app.Dialog;
@@ -10,6 +10,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Toast;
+
+import com.utest.manager.R;
 
 
 public class MainActivity extends Activity {

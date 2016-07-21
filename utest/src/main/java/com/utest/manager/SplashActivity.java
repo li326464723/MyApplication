@@ -1,9 +1,11 @@
-package com.utest.demo;
+package com.utest.manager;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.utest.manager.R;
 
 /**
  * Created by lowry on 16/7/7.

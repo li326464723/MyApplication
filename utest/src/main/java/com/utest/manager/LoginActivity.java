@@ -1,4 +1,4 @@
-package com.utest.demo;
+package com.utest.manager;
 
 import android.app.Activity;
 import android.content.Intent;
@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+
+import com.utest.manager.R;
 
 /**
  * Created by lowry on 16/7/7.
@@ -32,7 +34,7 @@ public class LoginActivity extends Activity{
                 String name = nameEdit.getText().toString();
                 String pass = passEdit.getText().toString();
                 if((name != null && !"".equals(name)) && (pass != null && !"".equals(pass))){
-                    Intent intent = new Intent(LoginActivity.this,MainActivity.class);
+                    Intent intent = new Intent(LoginActivity.this,UtestMainActivity.class);
                     startActivity(intent);
                     finish();
                 }
