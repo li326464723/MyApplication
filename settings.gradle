@@ -1,1 +1,1 @@
-include ':app', ':viewpagerdemo', ':baidupush', ':LogCatDemo', ':utest', ':ThreadDemo', ':camera2'
+include ':app', ':viewpagerdemo', ':baidupush', ':LogCatDemo', ':utest', ':ThreadDemo', ':camera2', ':触摸屏事件分发view'
